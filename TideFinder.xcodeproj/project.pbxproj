@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634CD5212BFB123D00920A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD5202BFB123D00920A11 /* AppDelegate.m */; };
+		634CD5242BFB123D00920A11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD5232BFB123D00920A11 /* SceneDelegate.m */; };
+		634CD5272BFB123D00920A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD5262BFB123D00920A11 /* ViewController.m */; };
+		634CD52A2BFB123D00920A11 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 634CD5292BFB123D00920A11 /* Base */; };
+		634CD52C2BFB123E00920A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634CD52B2BFB123E00920A11 /* Assets.xcassets */; };
+		634CD52F2BFB123E00920A11 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 634CD52E2BFB123E00920A11 /* Base */; };
+		634CD5322BFB123E00920A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD5312BFB123E00920A11 /* main.m */; };
+		634CD53C2BFB123E00920A11 /* TideFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD53B2BFB123E00920A11 /* TideFinderTests.m */; };
+		634CD5462BFB123E00920A11 /* TideFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD5452BFB123E00920A11 /* TideFinderUITests.m */; };
+		634CD5482BFB123E00920A11 /* TideFinderUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD5472BFB123E00920A11 /* TideFinderUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634CD5382BFB123E00920A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634CD5142BFB123D00920A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634CD51B2BFB123D00920A11;
+			remoteInfo = TideFinder;
+		};
+		634CD5422BFB123E00920A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634CD5142BFB123D00920A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634CD51B2BFB123D00920A11;
+			remoteInfo = TideFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		634CD51C2BFB123D00920A11 /* TideFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TideFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634CD51F2BFB123D00920A11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		634CD5202BFB123D00920A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		634CD5222BFB123D00920A11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		634CD5232BFB123D00920A11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		634CD5252BFB123D00920A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		634CD5262BFB123D00920A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		634CD5292BFB123D00920A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		634CD52B2BFB123E00920A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634CD52E2BFB123E00920A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634CD5302BFB123E00920A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634CD5312BFB123E00920A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		634CD5372BFB123E00920A11 /* TideFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TideFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634CD53B2BFB123E00920A11 /* TideFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TideFinderTests.m; sourceTree = "<group>"; };
+		634CD5412BFB123E00920A11 /* TideFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TideFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634CD5452BFB123E00920A11 /* TideFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TideFinderUITests.m; sourceTree = "<group>"; };
+		634CD5472BFB123E00920A11 /* TideFinderUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TideFinderUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634CD5192BFB123D00920A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634CD5342BFB123E00920A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634CD53E2BFB123E00920A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634CD5132BFB123D00920A11 = {
+			isa = PBXGroup;
+			children = (
+				634CD51E2BFB123D00920A11 /* TideFinder */,
+				634CD53A2BFB123E00920A11 /* TideFinderTests */,
+				634CD5442BFB123E00920A11 /* TideFinderUITests */,
+				634CD51D2BFB123D00920A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		634CD51D2BFB123D00920A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634CD51C2BFB123D00920A11 /* TideFinder.app */,
+				634CD5372BFB123E00920A11 /* TideFinderTests.xctest */,
+				634CD5412BFB123E00920A11 /* TideFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634CD51E2BFB123D00920A11 /* TideFinder */ = {
+			isa = PBXGroup;
+			children = (
+				634CD51F2BFB123D00920A11 /* AppDelegate.h */,
+				634CD5202BFB123D00920A11 /* AppDelegate.m */,
+				634CD5222BFB123D00920A11 /* SceneDelegate.h */,
+				634CD5232BFB123D00920A11 /* SceneDelegate.m */,
+				634CD5252BFB123D00920A11 /* ViewController.h */,
+				634CD5262BFB123D00920A11 /* ViewController.m */,
+				634CD5282BFB123D00920A11 /* Main.storyboard */,
+				634CD52B2BFB123E00920A11 /* Assets.xcassets */,
+				634CD52D2BFB123E00920A11 /* LaunchScreen.storyboard */,
+				634CD5302BFB123E00920A11 /* Info.plist */,
+				634CD5312BFB123E00920A11 /* main.m */,
+			);
+			path = TideFinder;
+			sourceTree = "<group>";
+		};
+		634CD53A2BFB123E00920A11 /* TideFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				634CD53B2BFB123E00920A11 /* TideFinderTests.m */,
+			);
+			path = TideFinderTests;
+			sourceTree = "<group>";
+		};
+		634CD5442BFB123E00920A11 /* TideFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				634CD5452BFB123E00920A11 /* TideFinderUITests.m */,
+				634CD5472BFB123E00920A11 /* TideFinderUITestsLaunchTests.m */,
+			);
+			path = TideFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634CD51B2BFB123D00920A11 /* TideFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634CD54B2BFB123E00920A11 /* Build configuration list for PBXNativeTarget "TideFinder" */;
+			buildPhases = (
+				634CD5182BFB123D00920A11 /* Sources */,
+				634CD5192BFB123D00920A11 /* Frameworks */,
+				634CD51A2BFB123D00920A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TideFinder;
+			productName = TideFinder;
+			productReference = 634CD51C2BFB123D00920A11 /* TideFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634CD5362BFB123E00920A11 /* TideFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634CD54E2BFB123E00920A11 /* Build configuration list for PBXNativeTarget "TideFinderTests" */;
+			buildPhases = (
+				634CD5332BFB123E00920A11 /* Sources */,
+				634CD5342BFB123E00920A11 /* Frameworks */,
+				634CD5352BFB123E00920A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634CD5392BFB123E00920A11 /* PBXTargetDependency */,
+			);
+			name = TideFinderTests;
+			productName = TideFinderTests;
+			productReference = 634CD5372BFB123E00920A11 /* TideFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		634CD5402BFB123E00920A11 /* TideFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634CD5512BFB123E00920A11 /* Build configuration list for PBXNativeTarget "TideFinderUITests" */;
+			buildPhases = (
+				634CD53D2BFB123E00920A11 /* Sources */,
+				634CD53E2BFB123E00920A11 /* Frameworks */,
+				634CD53F2BFB123E00920A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634CD5432BFB123E00920A11 /* PBXTargetDependency */,
+			);
+			name = TideFinderUITests;
+			productName = TideFinderUITests;
+			productReference = 634CD5412BFB123E00920A11 /* TideFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634CD5142BFB123D00920A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					634CD51B2BFB123D00920A11 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					634CD5362BFB123E00920A11 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 634CD51B2BFB123D00920A11;
+					};
+					634CD5402BFB123E00920A11 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 634CD51B2BFB123D00920A11;
+					};
+				};
+			};
+			buildConfigurationList = 634CD5172BFB123D00920A11 /* Build configuration list for PBXProject "TideFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 634CD5132BFB123D00920A11;
+			productRefGroup = 634CD51D2BFB123D00920A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634CD51B2BFB123D00920A11 /* TideFinder */,
+				634CD5362BFB123E00920A11 /* TideFinderTests */,
+				634CD5402BFB123E00920A11 /* TideFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634CD51A2BFB123D00920A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634CD52C2BFB123E00920A11 /* Assets.xcassets in Resources */,
+				634CD52F2BFB123E00920A11 /* Base in Resources */,
+				634CD52A2BFB123D00920A11 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634CD5352BFB123E00920A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634CD53F2BFB123E00920A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634CD5182BFB123D00920A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634CD5272BFB123D00920A11 /* ViewController.m in Sources */,
+				634CD5212BFB123D00920A11 /* AppDelegate.m in Sources */,
+				634CD5322BFB123E00920A11 /* main.m in Sources */,
+				634CD5242BFB123D00920A11 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634CD5332BFB123E00920A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634CD53C2BFB123E00920A11 /* TideFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634CD53D2BFB123E00920A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634CD5482BFB123E00920A11 /* TideFinderUITestsLaunchTests.m in Sources */,
+				634CD5462BFB123E00920A11 /* TideFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634CD5392BFB123E00920A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634CD51B2BFB123D00920A11 /* TideFinder */;
+			targetProxy = 634CD5382BFB123E00920A11 /* PBXContainerItemProxy */;
+		};
+		634CD5432BFB123E00920A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634CD51B2BFB123D00920A11 /* TideFinder */;
+			targetProxy = 634CD5422BFB123E00920A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		634CD5282BFB123D00920A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634CD5292BFB123D00920A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634CD52D2BFB123E00920A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634CD52E2BFB123E00920A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634CD5492BFB123E00920A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		634CD54A2BFB123E00920A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634CD54C2BFB123E00920A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TideFinder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kevislin.TideFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634CD54D2BFB123E00920A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TideFinder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kevislin.TideFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		634CD54F2BFB123E00920A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kevislin.TideFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TideFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TideFinder";
+			};
+			name = Debug;
+		};
+		634CD5502BFB123E00920A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kevislin.TideFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TideFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TideFinder";
+			};
+			name = Release;
+		};
+		634CD5522BFB123E00920A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kevislin.TideFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TideFinder;
+			};
+			name = Debug;
+		};
+		634CD5532BFB123E00920A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kevislin.TideFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TideFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634CD5172BFB123D00920A11 /* Build configuration list for PBXProject "TideFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634CD5492BFB123E00920A11 /* Debug */,
+				634CD54A2BFB123E00920A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634CD54B2BFB123E00920A11 /* Build configuration list for PBXNativeTarget "TideFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634CD54C2BFB123E00920A11 /* Debug */,
+				634CD54D2BFB123E00920A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634CD54E2BFB123E00920A11 /* Build configuration list for PBXNativeTarget "TideFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634CD54F2BFB123E00920A11 /* Debug */,
+				634CD5502BFB123E00920A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634CD5512BFB123E00920A11 /* Build configuration list for PBXNativeTarget "TideFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634CD5522BFB123E00920A11 /* Debug */,
+				634CD5532BFB123E00920A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634CD5142BFB123D00920A11 /* Project object */;
+}
